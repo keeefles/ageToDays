@@ -1,0 +1,42 @@
+*,
+*::after
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    text-decoration: double;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+}
+.convert {
+    width: 300px;
+    margin: auto;
+    align-items: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: black;
+}
+input {
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+.head1 {
+    margin: 10px;
+    text-align: center;
+}
+#btnSubmit {
+    cursor: pointer;
+    color: black;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(238,174,202,1);
+}
+#output1 {
+    font-weight: 400;
+}
